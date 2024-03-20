@@ -35,6 +35,12 @@ public class RewardValue {
     public double getMilesValue() {
         return milesValue;
     }
+    public double convertFromCashToMiles() {
+        return cashToMiles(cashValue);
+    }
+    public double convertFromMilesToCash() {
+        return milesToCash(milesValue);
+    }
 
 
 
